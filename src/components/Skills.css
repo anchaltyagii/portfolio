@@ -1,0 +1,43 @@
+.skills-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+    margin-top: 50px;
+}
+
+.skills-header{
+    font-size: 55px;
+    color: #000000;
+    margin: 0px !important;
+}
+
+li{
+    color: whitesmoke;
+}
+.resume_wrapper{
+    background-color: #00a5ec;
+    color: black;
+    height: 40px;
+    width: 200px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: inter;
+}
+.resume_wrapper:hover{
+    color: cyan;
+    background-color: whitesmoke;
+   
+}
+.resume{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

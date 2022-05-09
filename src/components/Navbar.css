@@ -1,0 +1,127 @@
+.logo-wrapper{
+    height: 150px;
+    width: 12vw;
+    background-color: #00a5ec;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.img_AT{
+    margin-top: 15px;
+    height: 35px;
+    width: 45px;
+}
+h3{
+    font-size: 20px;
+    line-height: 10px;
+    text-decoration: none !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link{
+    /* padding: 25px 25px;  */
+    color: black;
+}
+
+.nav-bar{
+    height: 70vh;
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #00a5ec;
+    text-decoration: none;
+}
+.nav-wrapper{
+    height: 55px;
+    width: 12vw;
+    /* margin: 5px; */
+    /* padding-top: 12px; */
+    border-bottom: 1px solid #282828;
+    background-color: #00a5ec;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.nav-wrapper:hover{
+    border-bottom: 4px solid black;
+}
+.nav-content:hover{
+    color: black;
+}
+.nav-content{
+    font-family: inter;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+}
+.ham_logo{
+    display: none;
+}
+@media screen and (max-width: 720px){
+    .logo-wrapper{
+        position: absolute;
+        top: 0px;
+        height: 55px;
+        width: 100px;
+        background-color: #00a5ec;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    .img_AT{
+        margin-top: 15px;
+        height: 25px;
+        width: 35px;
+    }
+    .nav-bar{
+        display: none !important;
+        position: absolute;
+        top: 0px;
+        left: 100px;
+        height: 55px;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        background-color: #00a5ec;
+        text-decoration: none;
+    }
+    .nav-wrapper{
+        display: none !important;
+        height: 55px;
+        width: 720px;
+        /* margin: 5px; */
+        /* padding-top: 12px; */
+        border-bottom: 1px solid #282828;
+        background-color: #00a5ec;
+        text-align: center; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    .nav-wrapper:hover{
+        border-bottom: 4px solid black;
+    }
+    .nav-content:hover{
+        color: black;
+    }
+    .nav-content{
+        display: none;
+        font-family: inter;
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff;
+    }
+    .ham_logo{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: block;
+        margin-top: 15px;
+        height: 25px;
+        width: 35px;
+    }
+}
+
