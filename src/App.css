@@ -61,6 +61,7 @@
      display: none;
   }
   .right-content{
+    margin-top: 50px;
     width: 100vw;
     height: 100vh;
     padding: 25px 25px; 

@@ -24,7 +24,7 @@ h3{
 }
 
 .nav-bar{
-    height: 70vh;
+    height: 75vh;
     width: 12vw;
     display: flex;
     flex-direction: column;
@@ -34,8 +34,6 @@ h3{
 .nav-wrapper{
     height: 55px;
     width: 12vw;
-    /* margin: 5px; */
-    /* padding-top: 12px; */
     border-bottom: 1px solid #282828;
     background-color: #00a5ec;
     text-align: center; 
@@ -59,40 +57,70 @@ h3{
 .ham_logo{
     display: none;
 }
+.ham_logo_mobile{
+    display: none;
+}
+.ham_logo_mobile_wrapper{
+    display: none;
+}
+.delete_icon_wrapper{
+    display: none;
+}
 @media screen and (max-width: 720px){
+    .nav-link{
+        height: 100vh;
+    }
     .logo-wrapper{
         position: absolute;
         top: 0px;
         height: 55px;
-        width: 100px;
+        width: 100vw;
         background-color: #00a5ec;
         color: white;
-        text-align: center;
         text-decoration: none;
     }
     .img_AT{
-        margin-top: 15px;
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        /* margin-top: 15px; */
         height: 25px;
         width: 35px;
     }
+    .delete_icon_wrapper {
+        display: block;
+        height: 65px;
+        background-color: #00a5ec;
+        color: #fff;
+        z-index: 100;
+    }
+    .delete_icon{
+        height: 25px;
+        width: 35px;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    .anchal_heading{
+        display: none !important;
+    }
     .nav-bar{
         display: none !important;
-        position: absolute;
-        top: 0px;
-        left: 100px;
-        height: 55px;
+    }
+    .ham_logo_mobile{
+        height: 70vh;
         width: 100vw;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         background-color: #00a5ec;
         text-decoration: none;
+        z-index: 100;
     }
     .nav-wrapper{
         display: none !important;
+    }
+    .ham_logo_mobile_wrapper {
         height: 55px;
-        width: 720px;
-        /* margin: 5px; */
-        /* padding-top: 12px; */
         border-bottom: 1px solid #282828;
         background-color: #00a5ec;
         text-align: center; 
@@ -100,28 +128,48 @@ h3{
         justify-content: center;
         align-items: center;
         color: #fff;
+        z-index: 100;
     }
-    .nav-wrapper:hover{
+    .ham_logo_mobile_wrapper:hover {
         border-bottom: 4px solid black;
     }
-    .nav-content:hover{
+    .ham-content{
+    font-family: inter;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    }
+    .ham-content:hover{
         color: black;
     }
     .nav-content{
         display: none;
-        font-family: inter;
-        text-decoration: none;
-        font-size: 20px;
-        color: #fff;
     }
     .ham_logo{
         position: absolute;
         top: 0px;
-        right: 0px;
-        display: block;
+        left: 20px;
+        display: block !important;
         margin-top: 15px;
         height: 25px;
         width: 35px;
     }
+    .ham_logo_mobile_none{
+        display: none;
+    }
+    .ham_logo_content{
+        display: none !important;
+        position: absolute;
+        top: 0px;
+        left: 100px;
+        height: 55px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        background-color: #00a5ec;
+        text-decoration: none;
+    }
+    
+    
 }
 
