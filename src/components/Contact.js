@@ -19,8 +19,8 @@ function Contact() {
     };
   return (
     <>
+    <div><h1 className='contact-header'>Contact me</h1></div>
     <div className='contact-container'>
-      <div><h1 className='contact-header'>Contact me</h1></div>
       <div className='form-box'>
       <form ref={form} onSubmit={sendEmail}>
       {/* <label>Name</label> */}

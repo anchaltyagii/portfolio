@@ -61,12 +61,12 @@
         color: darkgrey;
     }
     .img_wrapper{
-        margin-top: 50px;
+        margin-top: 80px;
         text-align: center;
         margin-left: 10px !important;
      }
      .img{
         height: 200px;
-        width: 200px;
+        width: 300px;
     }
 }

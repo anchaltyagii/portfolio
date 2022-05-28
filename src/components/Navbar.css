@@ -21,6 +21,7 @@ h3{
 .nav-link{
     /* padding: 25px 25px;  */
     color: black;
+    background-color: #00a5ec;
 }
 
 .nav-bar{
@@ -69,6 +70,8 @@ h3{
 @media screen and (max-width: 720px){
     .nav-link{
         height: 100vh;
+        background-color: #00a5ec;
+        text-decoration: none;
     }
     .logo-wrapper{
         position: absolute;
@@ -102,6 +105,7 @@ h3{
         right: 20px;
     }
     .anchal_heading{
+        text-decoration: none;
         display: none !important;
     }
     .nav-bar{

@@ -49,10 +49,12 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    /* transform: rotate(0deg); */
+    bottom: 0px;
   }
   to {
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
+    bottom: 50px;
   }
 }
 

@@ -26,13 +26,13 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
+    font-size: 20px;
     font-family: inter;
 }
 .resume_wrapper:hover{
-    color: cyan;
-    background-color: whitesmoke;
-   
+    /* color: #00a5ec; */
+    color: #00a5ec;
+    background-color: black;
 }
 .resume{
     text-decoration: none;
@@ -40,4 +40,83 @@ li{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+}
+.resume:hover{
+    color: #00a5ec;
+}
+.experience_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 200px;
+    padding: 30px;
+    position: absolute;
+    top: 120px;
+    left: 900px;
+    background-color: rgb(241, 241, 196);
+}
+.experience_link{
+    font-size: 14px;
+    font-size: inter;
+    font-weight: 600;
+    color: rgb(41, 82, 41);
+    text-decoration: none;
+}
+.git_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 200px;
+    padding: 30px;
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    background-color: rgb(241, 241, 196);
+}
+.git_link{
+    font-size: 14px;
+    font-size: inter;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
+.git-icon{
+    text-align: center;
+    height:20px;
+    width:20px;
+}
+@media screen and (max-width: 720px){
+    .skills-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .experience_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 250px;
+        padding: 30px;
+        position: unset;
+    }
+    .git_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 250px;
+        padding: 30px;
+        margin-top: 20px;
+        position: unset;
+        top: 400px;
+        left: 900px;
+        background-color: rgb(241, 241, 196);
+    }
 }

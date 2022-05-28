@@ -11,6 +11,7 @@ function About() {
       I love to buld websites and talk about creativity</p>
       <h3>Education:</h3>
       <p>I have completed Bachelor Of Technology(B.Tech) <br></br> from Banasthali University, Jaipur in 2021.</p>
+      </div>
       <div className='skills-container'>
         <p className='tech-stack'>Tech Stack:</p>
             <ul className='skills-li1'>
@@ -27,7 +28,6 @@ function About() {
                 <li>C++</li>
             </ul>
         </div>
-      </div>
         <div className='tech_img_wrapper'><img src={logo} className="App-logo" alt="technology"/></div>
     </div>
   )
