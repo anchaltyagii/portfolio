@@ -22,7 +22,7 @@ function Navbar() {
 
   return (
     <div className='nav-link'>
-        <NavLink to="/">
+        <NavLink to="/portfolio">
       <div className='logo-wrapper'>
           <img src={AT} alt="AT_logo" className='img_AT'/>
           <h3 className='anchal_heading'>Anchal</h3>
@@ -33,7 +33,7 @@ function Navbar() {
        <img src={Hamburger_icon} alt="AT_logo" className='ham_logo'/>
       </div>
       <div className='nav-bar'>
-            <NavLink className="nav-content ham-content" exact to="/" ><div className='nav-wrapper'>Home</div></NavLink>
+            <NavLink className="nav-content ham-content" exact to="/portfolio" ><div className='nav-wrapper'>Home</div></NavLink>
             <NavLink className="nav-content ham-content" exact to="/about"><div className='nav-wrapper'>About</div></NavLink>
             <NavLink className="nav-content ham-content" exact to="/skills"><div className='nav-wrapper'>Experience</div></NavLink>
             <NavLink className="nav-content ham-content" exact to="/contact"><div className='nav-wrapper'>Contact</div></NavLink>
@@ -47,7 +47,7 @@ function Navbar() {
      
      <div className = {hamMenu ? "ham_logo_mobile" : "ham_logo_mobile_none"}>
             <div onClick={del_menu} className='delete_icon_wrapper'><img src = {delete_icon} className='delete_icon' alt = "delete_icon"/></div>
-            <NavLink className="ham-content" exact to="/" ><div onClick={del_menu} className='ham_logo_mobile_wrapper'>Home</div></NavLink>
+            <NavLink className="ham-content" exact to="/portfolio" ><div onClick={del_menu} className='ham_logo_mobile_wrapper'>Home</div></NavLink>
             <NavLink className="ham-content" exact to="/about"><div onClick={del_menu} className='ham_logo_mobile_wrapper'>About</div></NavLink>
             <NavLink className="ham-content" exact to="/skills"><div onClick={del_menu} className='ham_logo_mobile_wrapper'>Experience</div></NavLink>
             <NavLink className="ham-content" exact to="/contact"><div onClick={del_menu} className='ham_logo_mobile_wrapper'>Contact</div></NavLink>
