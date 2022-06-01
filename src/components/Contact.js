@@ -1,8 +1,9 @@
 import React , { useRef } from 'react';
 import './Contact.css';
 import emailjs from 'emailjs-com';
-import Linkedin_icon from '../Assets/linkedin_icon.png';
-import Mail_icon from '../Assets/mail_icon.jpg';
+import Linkedin_icon from '../Assets/linkedin_icon1.jpg';
+import Mail_icon from '../Assets/mail-icon.jpg';
+import Git_icon from '../Assets/git_icon.png';
 
 function Contact() {
     const form = useRef();
@@ -39,6 +40,7 @@ function Contact() {
       <h2>Get in touch!</h2>
        <a href='https://www.linkedin.com/in/anchal-tyagi-4b5192182/' target = "_blank"><img src={Linkedin_icon} alt="Linkedin" className='img_link'/></a>
        <a href="mailto:anchaltyagi3100@gmail.com"><img src={Mail_icon} alt="Linkedin" className='img_link'/></a>
+       <a href="https://github.com/anchaltyagii?tab=repositories" target="_blank" className='git_link'> <img src={Git_icon} alt="git-icon" className='img_link'/></a>
     </div>
     </>
   )
