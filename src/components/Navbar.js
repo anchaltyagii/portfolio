@@ -21,7 +21,7 @@ function Navbar() {
 
   return (
     <div className="nav-link">
-      <NavLink to="/portfolio">
+      <NavLink to="/portfolio" style={{ textDecoration: 'none' }}>
         <div className="logo-wrapper">
           <img src={AT} alt="AT_logo" className="img_AT" />
           <h3 className="anchal_heading">Anchal</h3>

@@ -1,134 +1,133 @@
-.contact-container{
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-box {
+  width: 30rem;
+  border-radius: 6px;
+  background-color: rgb(183, 187, 187);
+  /* background-color: red; */
+}
+.contact-header {
+  margin-left: 30px;
+  font-size: 55px;
+  color: #000000;
+}
+label {
+  font-size: 20px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+input {
+  padding-left: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 400px;
+  height: 40px;
+  border: 1px rgb(238, 236, 236) solid;
+  border-radius: 6px;
+  background-color: rgb(238, 236, 236);
+}
+textarea {
+  padding-left: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 400px;
+  height: 100px;
+  border: 1px rgb(238, 236, 236) solid;
+  border-radius: 6px;
+  background-color: rgb(238, 236, 236);
+}
+::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(26, 25, 25);
+}
+.button {
+  background-color: #00a5ec;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  border: 0;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+.button:hover {
+  color: #00a5ec;
+  background-color: #ffffff;
+}
+h4 {
+  color: cyan;
+}
+.img_wrapper_contact {
+  height: 150px;
+  width: 250px;
+  padding: 30px;
+  background-color: rgb(183, 187, 187);
+  position: absolute;
+  top: 250px;
+  left: 900px;
+}
+.img_link {
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+}
+@media screen and (max-width: 720px) {
+  .contact-container {
     display: flex;
     flex-direction: column;
-}
-.form-box{
-    width: 30rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-header {
+    margin-left: 0px;
+    font-size: 55px;
+    color: #000000;
+  }
+  .form-box {
+    width: 90vw;
     border-radius: 6px;
     background-color: rgb(183, 187, 187);
     /* background-color: red; */
-}
-.contact-header{
-    margin-left: 30px;
-    font-size: 55px;
-    color: #000000;
-}
-label{
-    font-size: 20px;
-    font-weight: 500;
-    color: whitesmoke;
-}
-input{
+  }
+  input {
     padding-left: 10px;
     margin-left: 30px;
     margin-top: 30px;
-    width: 400px;
+    width: 80%;
     height: 40px;
     border: 1px rgb(238, 236, 236) solid;
     border-radius: 6px;
     background-color: rgb(238, 236, 236);
-}
-textarea{
+  }
+  textarea {
     padding-left: 10px;
     margin-left: 30px;
     margin-top: 30px;
-    width: 400px;
+    width: 80%;
     height: 100px;
     border: 1px rgb(238, 236, 236) solid;
     border-radius: 6px;
     background-color: rgb(238, 236, 236);
-}
-::placeholder{
-    font-size: 14px;
-    font-weight: 500;
-    color: rgb(26, 25, 25);
-}
-.button{
+  }
+  .button {
     background-color: #00a5ec;
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
     border: 0;
-    width: 400px;
+    width: 82%;
     margin-bottom: 30px;
-}
-
-.button:hover{
-    color: #00a5ec;
-    background-color: #ffffff;
-}
-h4{
-    color: cyan;
-}
-.img_wrapper_contact{
+  }
+  .img_wrapper_contact {
     height: 150px;
-    width: 250px;
-    padding: 30px;
+    width: 150px;
+    /* padding: 30px; */
     background-color: rgb(183, 187, 187);
-    position: absolute;
-    top: 250px;
-    left: 900px
-}
-.img_link{
-    width: 30px;
-    height:30px;
-    margin: 6px;
-}
-@media screen and (max-width: 720px){
-    .contact-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .contact-header{
-        margin-left: 0px;
-        font-size: 55px;
-        color: #000000;
-    }
-    .form-box{
-        width: 90vw;
-        border-radius: 6px;
-        background-color: rgb(183, 187, 187);
-        /* background-color: red; */
-    }
-    input{
-        padding-left: 10px;
-        margin-left: 30px;
-        margin-top: 30px;
-        width: 80%;
-        height: 40px;
-        border: 1px rgb(238, 236, 236) solid;
-        border-radius: 6px;
-        background-color: rgb(238, 236, 236);
-    }
-    textarea{
-        padding-left: 10px;
-        margin-left: 30px;
-        margin-top: 30px;
-        width: 80%;
-        height: 100px;
-        border: 1px rgb(238, 236, 236) solid;
-        border-radius: 6px;
-        background-color: rgb(238, 236, 236);
-    }
-    .button{
-        background-color: #00a5ec;
-        color: #ffffff;
-        font-size: 14px;
-        font-weight: 700;
-        border: 0;
-        width: 82%;
-        margin-bottom: 30px;
-    }
-    .img_wrapper_contact{
-        height: 150px;
-        width: 150px;
-        /* padding: 30px; */
-        background-color: rgb(183, 187, 187);
-        position: relative;
-        top: 100px;
-        left: 0px
-    }
-
+    position: relative;
+    top: 100px;
+    left: 0px;
+  }
 }

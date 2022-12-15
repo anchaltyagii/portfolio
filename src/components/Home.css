@@ -1,73 +1,77 @@
-.home-info{
-    font-size: 4rem;
-    font-family: 'inter';
+.home-info {
+  font-size: 4rem;
+  font-family: "inter";
+  line-height: 40px;
+  font-weight: 900;
+  color: #000;
+}
+.home-info2 {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  text-decoration: none !important;
+  color: rgb(1, 1, 138);
+}
+
+.contact-button {
+  margin-top: 5px;
+  background-color: #00a5ec !important;
+  color: black;
+  border: 0;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inter;
+  font-weight: 600;
+}
+.contact-button:hover {
+  color: blue;
+  background-color: black;
+}
+
+.nav-content1 {
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.nav-content1:hover {
+  background-color: black;
+}
+
+.img_wrapper {
+  margin-left: 800px;
+  margin-top: -200px;
+}
+.img {
+  height: 250px;
+  width: 300px;
+}
+@media screen and (max-width: 720px) {
+  .home-info {
+    font-size: 45px;
+    font-family: "inter";
     line-height: 40px;
     font-weight: 900;
     color: #000;
-}
-.home-info2{
-    margin-top: 25px;
-    font-size: 0.9rem;
-    text-decoration: none !important;
-    color: rgb(1, 1, 138);
-}
-
-.contact-button{
-    margin-top: 5px;
-    background-color: #00a5ec !important;
-    color: black;
-    border: 0;
-    height: 40px;
-    width: 200px;
-    text-align: center;
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: inter;
-    font-weight: 600;
-}
-.contact-button:hover{
-    color: cyan;
-    background-color: black;
-}
-
-.nav-content1{
-    font-weight: 900;
-    text-decoration: none;
+  }
+  .home-info2 {
+    margin-top: 30px;
     font-size: 20px;
-    color: black;
+    color: darkgrey;
+  }
+  .img_wrapper {
+    margin-top: 80px;
     text-align: center;
-}
-.img_wrapper{
-   margin-left: 800px;
-   margin-top: -200px;
-   
-}
-.img{
-    height: 250px;
+    margin-left: 10px !important;
+  }
+  .img {
+    height: 200px;
     width: 300px;
-}
-@media screen and (max-width: 720px){
-    .home-info{
-        font-size: 45px;
-        font-family: 'inter';
-        line-height: 40px;
-        font-weight: 900;
-        color: #000;
-    }
-    .home-info2{
-        margin-top: 25px;
-        font-size: 20px;
-        color: darkgrey;
-    }
-    .img_wrapper{
-        margin-top: 80px;
-        text-align: center;
-        margin-left: 10px !important;
-     }
-     .img{
-        height: 200px;
-        width: 300px;
-    }
+  }
 }

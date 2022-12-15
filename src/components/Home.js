@@ -11,11 +11,9 @@ function Home() {
         <h1 className="home-info">I'm Anchal Tyagi</h1>
         <h1 className="home-info">Web developer</h1>
         <h6 className="home-info2">Software Engineer (Front-end)</h6>
-        <div className="contact-button">
-          <NavLink className="nav-content1" exact to="/contact">
-            Contact Me!
-          </NavLink>
-        </div>
+        <NavLink className="nav-content1" exact to="/contact">
+          <div className="contact-button">Contact Me!</div>
+        </NavLink>
       </div>
       <div className="img_wrapper">
         <img src={Home_web} className="img" alt="Home-image" />
