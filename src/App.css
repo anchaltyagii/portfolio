@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  text-decoration: none;
+  font-family: inter;
+}
+
 .App {
   display: flex;
   flex-direction: row;
   height: 100vh;
+  background-color: beige;
 }
 .navbar{
   width: 12.5vw;
@@ -12,7 +20,8 @@
 
 .right-content{
   width: 85vw;
-  padding: 25px 25px; 
+  height: auto;
+  padding: 25px 52px; 
   background-color: beige;
 }
 

@@ -1,7 +1,14 @@
+.Home-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 100vh;
+}
+
 .home-info {
   font-size: 4rem;
-  font-family: "inter";
-  line-height: 40px;
+  font-family: inter;
+  line-height: 4rem;
   font-weight: 900;
   color: #000;
 }
@@ -45,18 +52,26 @@
 }
 
 .img_wrapper {
-  margin-left: 800px;
-  margin-top: -200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .img {
   height: 250px;
   width: 300px;
 }
 @media screen and (max-width: 720px) {
+  .Home-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
   .home-info {
     font-size: 45px;
-    font-family: "inter";
-    line-height: 40px;
+    font-family: inter;
+    line-height: 4rem;
     font-weight: 900;
     color: #000;
   }

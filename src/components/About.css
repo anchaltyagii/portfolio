@@ -1,6 +1,7 @@
 .about-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
 }
 p {
   font-size: 16px;
@@ -45,10 +46,9 @@ ul {
   margin-top: 20px;
 }
 .tech_img_wrapper {
-  float: left;
-  position: absolute;
-  left: 1000px;
-  top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 720px) {
   .about-wrapper {
@@ -60,12 +60,6 @@ ul {
   }
   .tech_img_wrapper {
     height: 200px;
-    width: 80vw;
-    margin-left: 30px;
-    float: left;
-    position: absolute;
-    left: 10px;
-    top: 800px;
   }
   .skills-container {
     height: 200px;
