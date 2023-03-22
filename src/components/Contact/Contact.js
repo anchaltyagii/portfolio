@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
-import Linkedin_icon from "../Assets/linkedin_icon1.jpg";
-import Mail_icon from "../Assets/mail-icon.jpg";
-import Git_icon from "../Assets/git_icon.png";
+import Linkedin_icon from "../../Assets/linkedin_icon1.jpg";
+import Mail_icon from "../../Assets/mail-icon.jpg";
+import Git_icon from "../../Assets/git_icon.png";
 
 function Contact() {
   const form = useRef();

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../Assets/tech_image.png";
+import logo from "../../Assets/tech_image.png";
 import "./About.css";
 
 function About() {

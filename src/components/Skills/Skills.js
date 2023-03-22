@@ -1,6 +1,6 @@
 import React from "react";
-import Resume from "../Assets/Anchal_Tyagi_Resume.pdf";
-import Git_icon from "../Assets/git_icon.png";
+import Resume from "../../Assets/Anchal_Tyagi_Resume.pdf";
+import Git_icon from "../../Assets/git_icon.png";
 import "./Skills.css";
 
 function Skills() {
@@ -39,7 +39,7 @@ function Skills() {
             apps Home and FAQs App.
           </p>
         </div>
-        <div className="experience_wrapper">
+        {/* <div className="experience_wrapper">
           <a
             href="https://www.boat-lifestyle.com/products/airdopes-131"
             target="_blank"
@@ -52,8 +52,8 @@ function Skills() {
             <br />
             Click to know more about product
           </a>
-        </div>
-        <div className="git_wrapper">
+        </div> */}
+        {/* <div className="git_wrapper">
           <a
             href="https://github.com/anchaltyagii?tab=repositories"
             target="_blank"
@@ -63,7 +63,7 @@ function Skills() {
             <br></br>
             Check out my more project here -{" "}
           </a>
-        </div>
+        </div> */}
         <div>
           <p>
             I have also done internship at IT-Bodhi where built the admin

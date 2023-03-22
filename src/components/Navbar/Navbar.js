@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import version from "../../package.json";
-import Linkedin_icon from "../Assets/linkedin_icon1.jpg";
-import Mail_icon from "../Assets/mail-icon.jpg";
-import Git_icon from "../Assets/git_icon.png";
-import AT from "../Assets/AT_logo.jpg";
-import Hamburger_icon from "../Assets/Hamburger_icon.png";
-import delete_icon from "../Assets/delete_icon.jpg";
+import version from "../../../package.json";
+import Linkedin_icon from "../../Assets/linkedin_icon1.jpg";
+import Mail_icon from "../../Assets/mail-icon.jpg";
+import Git_icon from "../../Assets/git_icon.png";
+import AT from "../../Assets/AT_logo.jpg";
+import Hamburger_icon from "../../Assets/Hamburger_icon.png";
+import delete_icon from "../../Assets/delete_icon.jpg";
 import "./Navbar.css";
 
 function Navbar() {
