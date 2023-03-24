@@ -17,9 +17,17 @@ function Skills() {
             I am having experience of nearly 2 years in <b>web development</b>.
           </p>
           <p>
-            Right now, I am working with American Express client for their
-            customer information portal.
+            I have worked with fintech clients like, American Express,
+            ZestMoney, Sterling, etc
           </p>
+          <h3>American Express:</h3>
+          <p>
+            I have worked on customer portal website, where user can see their
+            account & card information. <br />
+            Tech Stack used: ReactJs, HTML5, CSS, Bootstrap, React testing
+            library.
+          </p>
+          <h3>ZestMoney:</h3>
           <p>
             I have also worked with ZestMoney client, I have been part of three
             project here.
@@ -37,6 +45,17 @@ function Skills() {
           <p>
             I have also worked on partner-suite product where i build two web
             apps Home and FAQs App.
+          </p>
+
+          <h3>Sterling:</h3>
+          <p>
+            I have worked on UI of the patient portal & integrated APIs in the
+            website.
+          </p>
+          <p>
+            I have also worked on some of the mobile app UI using Crafter CMS
+            and NextJs <br />
+            Tech Stack used: NextJs, HTML, CSS, JavaScript, Crafter CMS
           </p>
         </div>
         {/* <div className="experience_wrapper">

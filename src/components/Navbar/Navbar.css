@@ -24,6 +24,10 @@ h3 {
   height: 100vh;
   color: black;
   background-color: #00a5ec;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
 }
 
 .nav-bar {
@@ -81,11 +85,29 @@ h3 {
   text-decoration: none !important;
 }
 
+.whatsapp-container {
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   height: 50px;
+   width: 50px;
+}
+
+.whatsapp-container:hover {
+  opacity: 0.8;
+}
+
+.mobile-header { 
+  display: none;
+}
+
+
 @media screen and (max-width: 720px) {
   .nav-link {
     height: 100vh;
     background-color: #00a5ec;
     text-decoration: none;
+    position: unset;
   }
 
   .logo-wrapper {
@@ -198,5 +220,16 @@ h3 {
     flex-direction: column;
     background-color: #00a5ec;
     text-decoration: none;
+  }
+
+  .mobile-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    width: 100vw;
+    display: flex;
+    background-color: #00a5ec;
   }
 }

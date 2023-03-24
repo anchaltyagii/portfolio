@@ -1,44 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 * {
   text-decoration: none;
-  font-family: inter;
+  font-family: inter !important;
+  line-height: 1.5em !important;
 }
 
 .App {
   display: flex;
   flex-direction: row;
   height: 100vh;
-  background-color: beige;
+  background-color: #fff;
 }
-.navbar{
+.navbar {
   width: 12.5vw;
   height: 100vh;
   /* padding: 25px 25px;  */
   background-color: #00a5ec;
 }
 
-.right-content{
-  width: 85vw;
+.right-content {
+  width: 100vw;
   height: auto;
-  padding: 25px 52px; 
-  background-color: beige;
-}
-
-.App-logo {
-  height: 250px;
-  width: 300px;
-  pointer-events: none;
-}
-.App-logo:hover{
-   
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 3s;
-    animation-direction: linear;
-  }
+  padding: 25px 52px;
+  background-color: #fff;
+  margin-left: 16vw;
 }
 
 .App-header {
@@ -67,15 +53,16 @@
   }
 }
 
-@media screen and (max-width: 720px){
-  .navbar{
-     display: none;
+@media screen and (max-width: 720px) {
+  .navbar {
+    display: none;
   }
-  .right-content{
+  .right-content {
     margin-top: 50px;
     width: 100vw;
     height: 100vh;
-    padding: 25px 25px; 
-    background-color: beige;
+    padding: 25px 25px;
+    background-color: #fff;
+    margin-left: 0px;
   }
 }
