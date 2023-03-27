@@ -122,11 +122,11 @@ function Navbar() {
           {/* <div className='nav-wrapper'>{version.version}</div> */}
         </div>
       </div>
-      <a href="http://wa.me/+9971405839" target="_blank">
+      {/* <a href="http://wa.me/+919971405839" target="_blank">
         <div className="whatsapp-container">
           <img src={icons.whatsapp_icon} height="100%" width="100%" />
         </div>
-      </a>
+      </a> */}
     </>
   );
 }

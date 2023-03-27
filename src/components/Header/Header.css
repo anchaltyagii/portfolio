@@ -1,0 +1,38 @@
+.header-container {
+  background: #00a5ec;
+  width: 100vw;
+  height: 58px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 25px;
+}
+
+.resume-btn-wrapper button {
+  border: 1px #fff solid;
+  background: #00a5ec;
+  color: #fff;
+  height: 30px;
+  width: 91px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.resume-btn-wrapper button:hover {
+  opacity: 0.6;
+}
+
+.avatar-img-wrapper {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}

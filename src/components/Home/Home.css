@@ -22,7 +22,7 @@
 .contact-button {
   margin-top: 5px;
   background-color: #00a5ec !important;
-  color: black;
+  color: #ffffff;
   border: 0;
   height: 40px;
   width: 200px;
@@ -35,8 +35,7 @@
   font-weight: 600;
 }
 .contact-button:hover {
-  color: blue;
-  background-color: black;
+  opacity: 0.6;
 }
 
 .nav-content1 {

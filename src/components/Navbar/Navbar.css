@@ -1,5 +1,5 @@
 .logo-wrapper {
-  height: 150px;
+  height: auto;
   width: auto;
   background-color: #00a5ec;
   color: white;
@@ -52,8 +52,13 @@ h3 {
 }
 
 .nav-wrapper:hover {
+  opacity: 0.6;
   border-bottom: 4px solid black;
 }
+.nav-wrapper:active {
+  border-bottom: 4px solid black;
+}
+
 .nav-content:hover {
   color: black;
 }
@@ -86,21 +91,20 @@ h3 {
 }
 
 .whatsapp-container {
-   position: fixed;
-   bottom: 30px;
-   right: 30px;
-   height: 50px;
-   width: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
 }
 
 .whatsapp-container:hover {
   opacity: 0.8;
 }
 
-.mobile-header { 
+.mobile-header {
   display: none;
 }
-
 
 @media screen and (max-width: 720px) {
   .nav-link {

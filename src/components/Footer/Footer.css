@@ -1,0 +1,35 @@
+.footer-wrapper {
+  display: none;
+}
+
+.footer-container {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  background-color: #656565;
+  color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+  .footer-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: grey;
+  }
+}

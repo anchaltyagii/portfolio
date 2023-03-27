@@ -13,7 +13,7 @@ function About() {
         </p>
         <p>
           I am working as Software Developer (Front-end) with <br /> experience
-          of <strong>1+ year</strong> in IT industry.
+          of <strong>1.5+ years</strong> in IT industry.
         </p>
         <h3>Education:</h3>
         <p>
@@ -22,13 +22,20 @@ function About() {
         </p>
         <p className="tech-stack">Tech Stack:</p>
         <p>
-          I am Proficient in tech stack like, JavaScript, ReactJs,<br /> 
-           Redux, Nextjs, HTML5, CSS, SASS.
+          I am Proficient in tech stack like, JavaScript, ReactJs,
+          <br />
+          Redux, Nextjs, HTML5, CSS, SASS, Bootstrap, Ant Design.
         </p>
         <p></p>
       </div>
-      <div className="tech_img_wrapper ">
-        <img src={logo} className="App-logo" alt="technology" />
+      <div className="tech_img_wrapper">
+        <img
+          src={logo}
+          className="App-logo"
+          alt="technology"
+          width="100%"
+          height="100%"
+        />
       </div>
     </div>
   );

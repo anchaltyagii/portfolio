@@ -42,13 +42,15 @@ ul {
 .tech-stack {
   font-size: 20px;
   font-weight: 500;
-  margin-left: 30px;
   margin-top: 20px;
 }
 .tech_img_wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 235px;
+  width: 235px;
+  margin-top: 50px;
 }
 @media screen and (max-width: 720px) {
   .about-wrapper {
@@ -73,7 +75,6 @@ ul {
   .tech-stack {
     font-size: 18px;
     font-weight: 500;
-    margin-left: 30px;
     margin-top: 20px;
   }
 }
