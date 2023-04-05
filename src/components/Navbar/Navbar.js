@@ -7,18 +7,22 @@ import Git_icon from "../../Assets/git_icon.png";
 import AT from "../../Assets/AT_logo.jpg";
 import Hamburger_icon from "../../Assets/Hamburger_icon.png";
 import delete_icon from "../../Assets/delete_icon.jpg";
+import { ArrowUpOutlined } from "@ant-design/icons";
 import { icons } from "../../Assets";
 import "./Navbar.css";
 
 function Navbar() {
   const [hamMenu, setHamMenu] = useState(false);
+  const [show, setShow] = useState(false);
 
   const ham_menu = () => {
     setHamMenu(true);
+    setShow(true);
   };
-  const del_menu = () => {
-    setHamMenu(false);
-  };
+  const del_menu = () => setHamMenu(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <>
@@ -55,10 +59,7 @@ function Navbar() {
             <div className="nav-wrapper">Contact</div>
           </NavLink>
           <div className="nav-wrapper">
-            <a
-              href="https://www.linkedin.com/in/anchal-tyagi-4b5192182/"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/anchaltyagi/" target="_blank">
               <img src={Linkedin_icon} alt="Linkedin" className="img_link" />
             </a>
             <a href="mailto:anchaltyagi3100@gmail.com">
@@ -69,11 +70,11 @@ function Navbar() {
               target="_blank"
               className="git_link"
             >
-              {" "}
               <img src={Git_icon} alt="git-icon" className="img_link" />
             </a>
           </div>
           <div className="nav-wrapper">{version.version}</div>
+          <div className="built-wrapper">Designed & Built by Anchal Tyagi</div>
         </div>
 
         <div className={hamMenu ? "ham_logo_mobile" : "ham_logo_mobile_none"}>
@@ -101,10 +102,7 @@ function Navbar() {
             </div>
           </NavLink>
           <div className="ham_logo_mobile_wrapper">
-            <a
-              href="https://www.linkedin.com/in/anchal-tyagi-4b5192182/"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/anchaltyagi/" target="_blank">
               <img src={Linkedin_icon} alt="Linkedin" className="img_link" />
             </a>
             <a href="mailto:anchaltyagi3100@gmail.com">
@@ -115,18 +113,17 @@ function Navbar() {
               target="_blank"
               className="git_link"
             >
-              {" "}
               <img src={Git_icon} alt="git-icon" className="img_link" />
             </a>
           </div>
-          {/* <div className='nav-wrapper'>{version.version}</div> */}
+          <div className="built-wrapper">Designed & Built by Anchal Tyagi</div>
         </div>
       </div>
-      {/* <a href="http://wa.me/+919971405839" target="_blank">
+      <a href="#" target="_self">
         <div className="whatsapp-container">
-          <img src={icons.whatsapp_icon} height="100%" width="100%" />
+          <ArrowUpOutlined />
         </div>
-      </a> */}
+      </a>
     </>
   );
 }

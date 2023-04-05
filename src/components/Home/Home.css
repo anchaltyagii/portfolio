@@ -8,15 +8,15 @@
 .home-info {
   font-size: 4rem;
   font-family: inter;
-  line-height: 4rem;
+  line-height: 1.5em;
   font-weight: 900;
   color: #000;
 }
 .home-info2 {
   margin-top: 25px;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   text-decoration: none !important;
-  color: rgb(1, 1, 138);
+  color: #000;
 }
 
 .contact-button {
@@ -35,7 +35,7 @@
   font-weight: 600;
 }
 .contact-button:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .nav-content1 {
@@ -44,6 +44,7 @@
   font-size: 20px;
   color: black;
   text-align: center;
+  margin-top: 30px;
 }
 
 .nav-content1:hover {
@@ -60,6 +61,42 @@
   height: 250px;
   width: 300px;
 }
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15rem;
+  margin-top: 40px;
+}
+
+.social-container {
+  height: 50px;
+  width: 50px;
+  background-color: #00a5ec;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-container:hover {
+  opacity: 0.8;
+}
+
+.read-more {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.read-more a {
+  color: #00a5ec !important;
+}
+
+.read-more:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 720px) {
   .Home-wrapper {
     display: flex;
@@ -70,14 +107,14 @@
   .home-info {
     font-size: 45px;
     font-family: inter;
-    line-height: 4rem;
+    line-height: 1.5em;
     font-weight: 900;
     color: #000;
   }
   .home-info2 {
     margin-top: 30px;
     font-size: 20px;
-    color: darkgrey;
+    color: #000;
   }
   .img_wrapper {
     margin-top: 80px;

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Resume from "../../Assets/Anchal_Tyagi_Resume.pdf";
+import { FiExternalLink } from "react-icons/fi";
 import "./Skills.css";
 
 function Skills() {
@@ -33,12 +34,25 @@ function Skills() {
           <div>
             <p>
               I am currently working in Skill-Mine Technology, Bangalore as
-              <b>Software Developer</b>.
+              <b> Software Developer</b>.
             </p>
             <p>
               I have worked with fintech clients like, American Express,
               ZestMoney, Sterling, etc
             </p>
+          </div>
+          <div style={{ marginTop: "40px" }}>
+            <h3>My Story:</h3>
+            <p>
+              I joined SkillMine fresh out of college with little experience.
+            </p>
+            <p>
+              But, over the years, I have developed various technical skills and
+              gained a lot of experience working on some exciting projects.
+            </p>
+            <p>When I joined I was the least experienced member of the team.</p>
+            In 1.5 years, I have led big tasks and even led and mentored a small
+            team of junior developers.
           </div>
           <div className="tabs-container">
             <button
@@ -103,7 +117,17 @@ function Skills() {
             )}
             {sterling && (
               <div>
-                <h3>Sterling:</h3>
+                <h3>
+                  Sterling Accuris
+                  <a
+                    href="https://sterling-accuris.skill-mine.com/"
+                    target="_blank"
+                  >
+                    &nbsp; &nbsp;
+                    <FiExternalLink color="#00a5ec" height="10px" />
+                  </a>
+                  :
+                </h3>
                 <ul>
                   <li>
                     I have worked on UI of the patient portal & integrated APIs

@@ -3,7 +3,7 @@
 * {
   text-decoration: none;
   font-family: inter !important;
-  line-height: 1.5em !important;
+  line-height: 1.5em;
 }
 
 .App {
