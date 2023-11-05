@@ -72,7 +72,7 @@ function Home() {
             little experience. But, over the years, I have developed various
             technical skills and gained a lot of experience working on some
             exciting projects. When I joined I was the least experienced member
-            of the team. In 1.5 years, I have led big tasks and even led and
+            of the team. In 2+ years, I have led big tasks and even led and
             mentored a small team of junior developers.
             <div className="read-more">
               <NavLink to="/about">

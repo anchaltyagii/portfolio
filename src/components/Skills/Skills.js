@@ -7,23 +7,47 @@ function Skills() {
   const [sterling, setSterling] = useState(true);
   const [americanExpress, setAmericanExpress] = useState(false);
   const [zestmoney, setZestmoney] = useState(false);
+  const [ecofy, setEcofy] = useState(false);
+  const [spotlight, setSpotlight] = useState(false);
 
   const handleSterling = () => {
     setSterling(true);
     setAmericanExpress(false);
     setZestmoney(false);
+    setEcofy(false);
+    setSpotlight(false);
   };
 
   const handleAmerican = () => {
     setAmericanExpress(true);
     setSterling(false);
     setZestmoney(false);
+    setEcofy(false);
+    setSpotlight(false);
   };
 
   const handleZestmoney = () => {
     setZestmoney(true);
     setAmericanExpress(false);
     setSterling(false);
+    setEcofy(false);
+    setSpotlight(false);
+  };
+
+  const handleEcofy = () => {
+    setZestmoney(false);
+    setAmericanExpress(false);
+    setSterling(false);
+    setEcofy(true);
+    setSpotlight(false);
+  };
+
+  const handleSpotlight = () => {
+    setZestmoney(false);
+    setAmericanExpress(false);
+    setSterling(false);
+    setEcofy(false);
+    setSpotlight(true);
   };
 
   return (
@@ -51,10 +75,22 @@ function Skills() {
               gained a lot of experience working on some exciting projects.
             </p>
             <p>When I joined I was the least experienced member of the team.</p>
-            In 1.5 years, I have led big tasks and even led and mentored a small
+            In 2+ years, I have led big tasks and even led and mentored a small
             team of junior developers.
           </div>
           <div className="tabs-container">
+            <button
+              className={spotlight ? "tab-btn-active" : "tab-btn"}
+              onClick={() => handleSpotlight()}
+            >
+              Spotlight
+            </button>
+            <button
+              className={ecofy ? "tab-btn-active" : "tab-btn"}
+              onClick={() => handleEcofy()}
+            >
+              Ecofy Customer Portal
+            </button>
             <button
               className={sterling ? "tab-btn-active" : "tab-btn"}
               onClick={() => handleSterling()}
@@ -136,6 +172,63 @@ function Skills() {
                   <li>
                     I have also worked on some of the mobile app UI using
                     Crafter CMS and NextJs.
+                  </li>
+                  <li>
+                    Tech Stack used: NextJs, HTML, CSS, JavaScript, Crafter CMS
+                  </li>
+                </ul>
+              </div>
+            )}
+
+            {ecofy && (
+              <div>
+                <h3>
+                  Ecofy Customer Portal
+                  <a href="https://customerportal.ecofy.co.in/" target="_blank">
+                    &nbsp; &nbsp;
+                    <FiExternalLink color="#00a5ec" height="10px" />
+                  </a>
+                  :
+                </h3>
+                <ul>
+                  <li>
+                    I have developed the UI of the customer portal for availing
+                    loans, EMI payments, and showcasing transaction history.
+                  </li>
+                  <li>
+                    Integrated critical payment infrastructure for EMI payments
+                    with Cashfree
+                  </li>
+                  <li>
+                    Tech Stack used: ReactJs, Redux, HTML5, SASS, JavaScript,
+                    MaterialUI.
+                  </li>
+                </ul>
+              </div>
+            )}
+
+            {spotlight && (
+              <div>
+                <h3>
+                  Spotlight
+                  <a
+                    href="https://spotlight-dev.skill-mine.com/"
+                    target="_blank"
+                  >
+                    &nbsp; &nbsp;
+                    <FiExternalLink color="#00a5ec" height="10px" />
+                  </a>
+                  :
+                </h3>
+                <ul>
+                  <li>
+                    I have worked on the new UI designs of whole Spotlight
+                    website, which will be used by HRs and employee of any
+                    Company to see the employee data, to post the job, etc.
+                  </li>
+                  <li>
+                    Architectured the new codebase for better readability and
+                    making it more efficient.
                   </li>
                   <li>
                     Tech Stack used: NextJs, HTML, CSS, JavaScript, Crafter CMS

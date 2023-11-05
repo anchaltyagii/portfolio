@@ -13,7 +13,7 @@ function About() {
         </p>
         <p>
           I am working as Software Developer (Front-end) with <br /> experience
-          of <strong>1.5+ years</strong> in IT industry.
+          of <strong>2+ years</strong> in IT industry.
         </p>
         <h3>Education:</h3>
         <p>
@@ -24,7 +24,7 @@ function About() {
         <p>
           I am Proficient in tech stack like, JavaScript, ReactJs,
           <br />
-          Redux, Nextjs, HTML5, CSS, SASS, Bootstrap, Ant Design.
+          Redux, Nextjs, HTML5, CSS, SASS, Bootstrap, Ant Design, MaterialUI.
         </p>
         <p></p>
       </div>
