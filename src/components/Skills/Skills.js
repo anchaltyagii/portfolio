@@ -110,7 +110,7 @@ function Skills() {
               className={ecofy ? 'tab-btn-active' : 'tab-btn'}
               onClick={() => handleEcofy()}
             >
-              Ecofy Customer Portal
+              Ecofy
             </button>
             <button
               className={sterling ? 'tab-btn-active' : 'tab-btn'}
